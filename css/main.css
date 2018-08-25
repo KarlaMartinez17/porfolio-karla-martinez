@@ -1,8 +1,9 @@
 .navbar-light .navbar-nav .nav-link{
-  color: #9192a2;
+  color: #87232f;
 }
 
 .masthead {
+
     position: relative;
     width: 100%;
     height: auto;
@@ -40,11 +41,12 @@
   }
   
   .btn-primary {
-    background-color:#595565;
+    background-color: #87232f;
   }
   
   .btn-primary:hover {
-    background-color: #9192a2;
+    -webkit-transform:scale(1.2);transform:scale(1.2);
+     background-color: #9192a2;
   }
   
   .btn-primary:focus {
@@ -57,7 +59,7 @@
   } 
 
   .about-section {
-    padding-top: 10rem;
+    padding-top: 5rem;
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
   }
   
@@ -67,16 +69,31 @@
   }
 
   #about-picture{
-    width: 50%;
+    overflow: hidden;
+    width: 50%; 
+    border-radius: 5%;
+  }    
+
+  .col-8 p{
+    margin-bottom: 1em;
   }
 
   #github-link{
-    color: purple;
+    color: #87232f;
     font-size: 20px;
     font-weight: bolder;
 
   }
+
+  #abilities{
+    padding: 2em;
+    background: linear-gradient(to bottom, rgba(189, 24, 24, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);
+  }
   
+  #abilities .progress h4{
+    margin-top:  5%;
+    margin-bottom: 5%;
+  }
   @media (min-width: 768px) {
     .masthead h1 {
       font-size: 4rem;
