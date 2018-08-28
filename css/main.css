@@ -61,18 +61,22 @@
   .about-section {
     padding-top: 5rem;
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-  }
+  } 
   
   .about-section p {
     margin-bottom: 5rem;
     color: #9192a2;
   }
 
+  
+
   #about-picture{
     overflow: hidden;
     width: 50%; 
     border-radius: 5%;
   }    
+
+
 
   .col-8 p{
     margin-bottom: 1em;
@@ -85,15 +89,6 @@
 
   }
 
-  #abilities{
-    padding: 2em;
-    background: linear-gradient(to bottom, rgba(189, 24, 24, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%);
-  }
-  
-  #abilities .progress h4{
-    margin-top:  5%;
-    margin-bottom: 5%;
-  }
   @media (min-width: 768px) {
     .masthead h1 {
       font-size: 4rem;
@@ -116,3 +111,4 @@
       font-size: 1.25rem;
     }
   }
+
