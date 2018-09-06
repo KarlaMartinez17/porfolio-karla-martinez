@@ -121,7 +121,7 @@ animation-iteration-count: 1;
   #tools-logo img{
     width: 200px;
     margin: 10px;
-   filter: grayscale(100%); 
+    filter: grayscale(100%);
     padding: 10px;
     border-radius: 5px;
  
@@ -138,6 +138,9 @@ animation-iteration-count: 1;
     -webkit-transition: border-radius 2s;
   }
    
+  #cv-icon{
+    width: 70px;
+  }
   .contact-section {
     padding: 5rem 0 0;
   }
