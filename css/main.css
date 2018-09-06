@@ -2,6 +2,13 @@
   color: #87232f;
 }
 
+.navbar-light .navbar-nav .nav-link:hover{
+  -webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+-webkit-animation: swing 1s ease;
+
+}
+
 .masthead {
 
     position: relative;
@@ -90,8 +97,8 @@
     color: #87232f;
     font-size: 20px;
     font-weight: bolder;
-
   }
+
 
   h4{
     color: #87232f;
@@ -103,8 +110,81 @@
 
   .img-fluid:hover{
     filter: none;
+    box-shadow:
+    1px 1px #87232f,
+    2px 2px #87232f,
+    3px 3px #87232f;
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
   }
 
+  #tools-logo img{
+    width: 200px;
+    margin: 10px;
+   filter: grayscale(100%); 
+    padding: 10px;
+    border-radius: 5px;
+ 
+   /* HOVER OFF */
+    -webkit-transition: padding 2s;
+  }
+
+  #tools-logo img:hover{
+    filter: none;
+    padding: 20px;
+    border-radius: 15px;
+ 
+   /* HOVER ON */
+    -webkit-transition: border-radius 2s;
+  }
+   
+  .contact-section {
+    padding: 5rem 0 0;
+  }
+  
+  .contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #87232f;
+  }
+  
+  .contact-section .card h4 {
+    font-size: 0.8rem;
+    font-family: 'Varela Round';
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+  }
+  
+  .contact-section .card hr {
+    border-color: #bdc3af;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  
+  .contact-section .social {
+    margin-top: 5rem;
+  }
+  
+  .contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .contact-section .social a:hover {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .contact-section .social a:active {
+    color: #fff;
+  }
+  footer {
+    padding: 5rem 0;
+  }
+  
 
   @media (min-width: 768px) {
     .masthead h1 {
